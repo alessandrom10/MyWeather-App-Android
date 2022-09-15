@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addAsFavouriteButton"
+        android:icon="@drawable/heart"
+        android:title="Add as favourite"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/listFavouriteButton"
+        android:icon="@drawable/list"
+        android:title="Show favourite's list"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/showMapButton"
+        android:icon="@drawable/map"
+        android:title="Show map"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="buttonString">Search for a city</string>
+    <string name="temperatureString">0°C</string>
+    <string name="temperatureCityNameSeparator">--------</string>
+    <string name="cityNameString">Loading data...</string>
+    <string name="title_activity_map">MapActivity</string>
+
+</resources>

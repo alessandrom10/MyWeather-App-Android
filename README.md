@@ -3,11 +3,14 @@
 -Problema geocode: come le ho scritto geocode non funziona in alcun modo, dando vari tipi di errori a seconda del momento e facendo crashare l'app. L'errore più comune risulta comunque essere deadline exceded.
 
 -Per sistemarlo ho provato moltissime soluzioni diverse (farlo andare in un thread/task per se, utilizzare una mia api key personalizzata, accedere tramite httpclient ecc.) ma nessuno ha mai avuto successo.
+
 -Ho provato anche a usare httpclient per accedera al json a cui sarebbe dovuto accedere geocode e scaricarlo in questo modo ma ho ricevuto una timeout exception
+
 -Ad ogni modo, nel programma il codice sia di geocode, sia della chiamata di httpclient che avrebbe dovuto "sostituirlo" sono presenti ma commentate
+
 -Il programma è stato quindi modificiato per arginare questo problema, il programma infatti simula la localizzazione dell'utente restituendo sempre la posizione di Parma e allo stesso modo quando gli viene richiesta un altra città restituisce sempre la città di Palermo
 
-    -inoltre ho preinserito 4 città preferite, per poter vedere meglio le funzionalità della mappa anche senza geocode
+-inoltre ho preinserito 4 città preferite, per poter vedere meglio le funzionalità della mappa anche senza geocode
 
 -L'applicazione, ad eccezione del problema con Geocode, contine tutti i requisiti richiesti e risulta completamente funzionante ed eseguibile
 

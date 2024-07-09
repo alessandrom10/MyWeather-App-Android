@@ -1,4 +1,4 @@
-# MyWeather: Project 1 for Android
+# MyWeather: Project for Android
 
 **MyWeather** is an Android application developed in Java.
 Below are the key points and known issues of the application:

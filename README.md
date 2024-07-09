@@ -7,12 +7,13 @@ MyWeather is a simple application that displays weather information for some spe
 ### Prerequisites
 
 - Android Studio installed on your machine
-- A Weather API key from OpenWeatherMap, a weather service provider
+- A Weather API key from OpenWeatherMap
 
 ### Installation
 - Clone the repository
 - Write into the local.properties file a property called "weatherKey" with your personal key for the OpenWeatherMap api
 
+# Description
 **MyWeather** is an Android application developed in Java.
 Below are the key points and known issues of the application:
 

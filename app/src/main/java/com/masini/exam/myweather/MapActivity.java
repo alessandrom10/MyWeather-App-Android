@@ -26,7 +26,7 @@ import cz.msebera.android.httpclient.Header;
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private final String weatherUrl = "https://api.openweathermap.org/data/3.0/onecall";
-    private final String weatherKey = "***REMOVED***";
+    private final String weatherKey = BuildConfig.weatherKey;
     private GoogleMap mMap;
     private ActivityMapBinding binding;
 
@@ -39,6 +39,8 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        System.out.println("Weatherkey is " + weatherKey);
 
         binding = ActivityMapBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());

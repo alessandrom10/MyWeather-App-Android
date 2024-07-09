@@ -38,10 +38,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
 
     private final String weatherUrl = "https://api.openweathermap.org/data/3.0/onecall";
-    private final String geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json";
-    private final String weatherKey = "***REMOVED***";
-    private final String geocodeKey = "AIzaSyD9GQ5c9iMqc2Ld1paAxK_K-xhmHKmtsBg";
-
+    private final String weatherKey = BuildConfig.weatherKey;
     private final long MIN_TIME = 5000;
     private final long MIN_DISTANCE = 1000;
     private final int REQUEST_CODE = 101;
